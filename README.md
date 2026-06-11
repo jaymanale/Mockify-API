@@ -1,5 +1,5 @@
 
-# Feku Json
+# Mockify API
 <p>
   <img alt="Github: JayManale" src="https://img.shields.io/github/last-commit/jaymanale/FekuJson" />
 </p>
@@ -10,7 +10,7 @@ Free Simple Mockify API for Testing and Prototyping.
 
 
 ## When to use
-Feku Json is a free online REST API that you can use whenever you need some Mocking data to test things locally.
+Mockify API is a free online REST API that you can use whenever you need some Mocking data to test things locally.
 
 ## Postman API
 
@@ -18,7 +18,7 @@ Let go to [API](https://documenter.getpostman.com/view/305770/2s93eSabYH)
 
 
 ## Resources
-Feku Json comes with a set of 3 resources:
+Mockify API comes with a set of 3 resources:
 
 [/users](https://documenter.getpostman.com/view/305770/2s93eSabYH#31f128f2-1cc0-4a42-9887-b3c84f0ea1e5) - 10 users
 
@@ -47,7 +47,7 @@ All HTTP methods are supported. You can use http or https for your requests.
       redirect: 'follow'
     };
       
-    fetch("https://fekujson-production.up.railway.app/api/v1/products", requestOptions)
+    fetch("https://mockify-api.onrender.com/api/v1/products", requestOptions)
       .then(response => response.text())
       .then(result => console.log(result))
       .catch(error => console.log('error', error));
@@ -165,7 +165,7 @@ All HTTP methods are supported. You can use http or https for your requests.
         redirect: 'follow'
    };
    
-   fetch("https://fekujson-production.up.railway.app/api/v1/products/10", requestOptions)
+   fetch("https://mockify-api.onrender.com/api/v1/products/1", requestOptions)
         .then(response => response.text())
         .then(result => console.log(result))
         .catch(error => console.log('error', error));
@@ -196,7 +196,7 @@ All HTTP methods are supported. You can use http or https for your requests.
       redirect: 'follow'
    };
    
-   fetch("https://fekujson-production.up.railway.app/api/v1/products/1", requestOptions)
+   fetch("https://mockify-api.onrender.com/api/v1/products/1", requestOptions)
       .then(response => response.text())
       .then(result => console.log(result))
       .catch(error => console.log('error', error));
@@ -226,7 +226,7 @@ All HTTP methods are supported. You can use http or https for your requests.
       redirect: 'follow'
    };
    
-   fetch("https://fekujson-production.up.railway.app/api/v1/products/2", requestOptions)
+   fetch("https://mockify-api.onrender.com/api/v1/products/2", requestOptions)
       .then(response => response.text())
       .then(result => console.log(result))
       .catch(error => console.log('error', error));
@@ -250,7 +250,7 @@ All HTTP methods are supported. You can use http or https for your requests.
        redirect: 'follow'
    };
    
-   fetch("https://fekujson-production.up.railway.app/api/v1/products/?sortBy=productName&sortDir=asc&pageNumber=1&pageSize=5", requestOptions)
+   fetch("https://mockify-api.onrender.com/api/v1/products/?sortBy=productName&sortDir=asc&pageNumber=1&pageSize=5", requestOptions)
        .then(response => response.text())
        .then(result => console.log(result))
        .catch(error => console.log('error', error));
